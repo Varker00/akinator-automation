@@ -22,4 +22,4 @@ game.start_game()
 
 That's it!
 
-Results will be saved to ./results/{date_and_time}.json
+Results will be saved to ```./results/{date_and_time}.json```
