@@ -20,7 +20,6 @@ class AkinatorGame:
         self.guesses = {}
         self.answer_func = answer_func
 
-
     @property
     def aki_response(self):
         return str(self.aki)
