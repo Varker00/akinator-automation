@@ -46,7 +46,7 @@ class AkinatorGame:
 
             while not answer_ok:
                 try:
-                    answer = self.answer_func(answer)
+                    answer = self.answer_func(akinator_response)
                     self.aki.answer(answer)
                     answer_ok = True
                 except InvalidChoiceError as e:
